@@ -5,9 +5,9 @@ resources:
 - service.yaml
 - route.yaml
 commonLabels:
-  app: sohaib-ashraf-express-app
-  app.kubernetes.io/instance: sohaib-ashraf-express-app-instance
-  app.kubernetes.io/name: sohaib-ashraf-express-app
+  app: sohaib-ashraf-express-sample-app
+  app.kubernetes.io/instance: sohaib-ashraf-express-sample-app-instance
+  app.kubernetes.io/name: sohaib-ashraf-express-sample-app
 images:
 - name: quay.io/upslopeio/express-sample-app
   newName: quay.io/sohaib_ashraf_ibm/express-app
